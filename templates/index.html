@@ -1,0 +1,29 @@
+{% include 'header.html' %}
+
+<div class="pure-g">
+    <div class="pure-u-6-24"></div>
+    <div class="pure-u-1-2">
+
+        <form class="pure-form pure-form-stacked">
+            <fieldset>
+                <legend>Create an account or login</legend>
+        
+                <label for="email">Email</label>
+                <input id="email" type="email" placeholder="Email">
+                <span class="pure-form-message">This is a required field.</span>
+        
+                <label for="password">Password</label>
+                <input id="password" type="password" placeholder="Password">
+        
+                <label for="remember" class="pure-checkbox">
+                    <input id="remember" type="checkbox"> Remember me
+                </label>
+        
+                <button type="submit" class="pure-button pure-button-primary">Create/Login</button>
+            </fieldset>
+        </form>
+    </div>
+    <div class="pure-u-6-24"></div>
+</div>
+
+{% include 'footer.html' %}
